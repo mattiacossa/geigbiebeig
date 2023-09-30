@@ -1,0 +1,449 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'fonts.css';
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter var', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.qwerty {
+  width: 12vw;
+  margin-right: 3vw;
+}
+
+.sottot {
+padding-top: 20px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.ciao {
+
+margin-top: -8px;
+}
+
+
+.colore {
+
+  margin-top: -8px;
+  }
+  
+  .intenso {
+  background-color: #e8efe9
+   }
+
+  .complete {
+   width: 100%;
+  }
+  
+  .radio-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+padding-bottom: 30px;
+padding-left: 20px;
+  }
+  
+  .radio-button input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid #000;
+    border-radius: 0;
+ margin-right: 10px;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+  }
+  
+
+  .radio-button input[type="radio"]:checked {
+    background-color: #000;
+  }
+  
+  .radio-button input[type="radio"]:hover:not(:checked) {
+    background-color: #ccc;
+  }
+
+  .sotto {
+    padding-bottom: 30px;
+  }
+
+  .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(to right, #C0D7BB, #2F4B26);
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 2px;
+    background: #153243;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #ff00cc;
+    cursor: pointer;
+  }
+  .borderblue {
+
+background-color:white;
+padding-top:20px;
+padding-bottom:20px;
+border-radius: 2px;
+border: solid 2px rgba(164, 196, 164, 0.5);
+    }
+    
+    .bordergeneral {
+
+      background-color: white;
+      padding:20px;
+      border-radius: 2px;
+      border: solid 2px #a4c4a4;
+      box-shadow: 4px 4px 0px #999;
+          }
+
+
+         
+          .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+           
+          }
+          
+          .textt {
+            text-align: left;
+            padding-bottom: 30px;
+            padding-top: 10px;
+         
+          }
+
+          .texttt {
+            text-align: left;
+
+            padding-top: 10px;
+         
+          }
+         
+      
+          .grande {
+           font-size: 1.5em;
+           line-height: 1.2;
+           
+         
+          }
+
+
+          .image-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .image-wrapper img {
+            margin-right: 10px; /* add some space to the right of the image */
+          }
+
+          
+          .svgg {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+            margin-left: auto;
+margin-top: 0px;
+
+          }
+
+
+          .note {
+           display:flex;
+
+    justify-content: flex-end;
+                }
+
+               
+          .bottoneprimario {
+            background-color: #38a169;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+            font-size: 1rem;
+            color: #fff;
+            padding-top: 0.75rem;
+            padding-bottom: 0.75rem;
+            margin-top: 1.5rem;
+            border-radius: 0.5rem;
+            width: 100%;
+            
+         
+                }
+
+                .progress-bar-container {
+                  width: 100%;
+                  margin: 0 auto;
+            padding-left: 20px;
+            padding-right: 20px;
+
+                  text-align: center;
+    
+                }
+                
+                /* Style the progress bar */
+                progress {
+                  width: 100%;
+                  border: none;
+                  background-color: #eee;
+                  border-radius: 10px;
+                }
+                
+                /* Style the progress bar track */
+                progress::-webkit-progress-bar {
+                  border-radius: 10px;
+                }
+                
+                /* Style the progress bar value */
+                progress::-webkit-progress-value {
+                  background-color: #6db65b;
+                  border-radius: 10px;
+                }
+            
+                
+
+                
+
+
+                .bottoneprimario1 {
+                  background-color: #38a169;
+
+            font-size: 1rem;
+            color: #fff;
+            padding-top: 0.75rem;
+            padding-bottom: 0.75rem;
+margin-left: 10px;
+            border-radius: 1rem;
+            width: 50px;
+                  }
+                  
+               
+              
+          
+
+  .sposta {
+
+margin-right: 20px;
+padding-right: 10px;
+
+    }
+
+
+    
+  
+   
+    .gotopolly  {
+
+        
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+      }
+    
+      .bordo  {
+
+        
+       border: solid 10px red;
+            }
+          
+          .gotopolly button {
+
+        
+  
+            background-color: #313B72; /* Colore di sfondo */
+            
+            color: #fff; /* Colore del testo */
+            border: 1px solid #313B72; /* Stile del bordo */
+            padding: 10px 20px; /* Spaziatura interna */
+            border-radius: 5px; /* Angoli arrotondati */
+            text-decoration: none; /* Rimuovi la sottolineatura del testo */
+            font-size: 16px; /* Dimensione del testo */
+            cursor: pointer; /* Cambia il cursore del mouse */
+            }
+          
+    .centrale {
+      text-align: center;
+      line-height: 32px;
+    }
+
+    .inferiore {
+margin-bottom: 13px;
+padding-top: 100px;
+
+
+
+    }
+
+    .inferiore2 {
+      margin-bottom: 13px;
+   
+      
+      
+      
+          }
+      
+
+
+    .icon-container {
+      display: flex;
+      align-items: center;
+      margin-left: 0.5rem; /* adjust as needed */
+    }
+
+    .inputt{
+      display: block;
+ 
+      border-radius: 20px;
+      padding: 10px;
+      background-color: #fff;
+      color: #333;
+      font-size: 16px;
+      width: 50vw;
+      margin: 0 auto; /* Center horizontally */
+      height: 60px;
+    
+    }
+
+
+    .spostaa{
+    margin-left: 40px;
+      
+          }
+
+    .img {
+      pointer-events: none;
+      }
+
+      .linea {
+      padding-top: 30px;
+padding-left: 50px;
+padding-right: 50px;
+padding-bottom: 40px;
+        }
+
+        .linea2 {
+          
+  text-align: center;
+           }
+  
+
+           .spaziosopra {
+          
+            padding-top: 15px;
+                     }
+            
+
+           .linea3 form {
+            display: flex;
+            align-items: center;
+          }
+
+
+          .linea4  {
+           padding-bottom: 50px;
+          }
+
+          .linea5  {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 50px;
+           }
+           
+
+           .linea6  {
+            padding-top:40px;
+           }
+           .sopraspazio  {
+            padding-top:40px;
+           }
+
+
+
+
+           .linea7  {
+        
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 60px;
+           }
+
+           
+
+           .qwerty  {
+            font-style: italic;
+           }
+
+
+          
+
+                    .test1,
+                    .test2 {
+                      display: inline-block;
+                      vertical-align: middle;
+                    }
+
+    
+
+
+      .biglietto {
+        background: linear-gradient(to bottom, #27474E, #A4C2A8, #aac4a7);
+      }
+
+      .sopra {
+padding-top: 50px;
+padding-bottom: 10px;
+
+      }
+
+
+
+
+      .margine {
+       padding-left: 10px;
+       scroll-padding-right: 10px;
+      }
+
+
+
+    .hola {
+ border: solid 10 px red;
+ height: 200px;
+      }
+  
+ 
+ 
